@@ -1,5 +1,8 @@
 # MapTiler Cloud CLI
 
+## User guide
+[How to upload MBTiles or GeoPackage into MapTiler Cloud using the CLI](https://documentation.maptiler.com/hc/en-us/articles/4408129705745-How-to-upload-MBTiles-or-GeoPackage-into-MapTiler-Cloud-using-API)
+
 ## Requirements
 
 - Python *version >= 3.6*
@@ -19,6 +22,8 @@ The token can be acquired from the
 [Credentials](https://cloud.maptiler.com/account/credentials/)
 section of your account administration pages in MapTiler Cloud.
 
+For more information there is a guide to [Securely signing requests to MapTiler Cloud API](https://documentation.maptiler.com/hc/en-us/articles/4405599315089-Signing-requests-to-Cloud-API).
+
 Specify it either on the command line or as an environment variable.
 
 ```shell
@@ -30,6 +35,8 @@ MAPTILER_TOKEN=MY_TOKEN; maptiler-cloud ...
 ```
 
 ## Usage
+
+For more detailed information, read [How to upload MBTiles or GeoPackage into MapTiler Cloud using the CLI](https://documentation.maptiler.com/hc/en-us/articles/4408129705745-How-to-upload-MBTiles-or-GeoPackage-into-MapTiler-Cloud-using-API)
 
 ### Create a new tileset
 
